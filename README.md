@@ -1,3 +1,6 @@
+This repositopry contains changes to the original test_db, so it is more suitable to the class I teach.
+I made smaller version of the database (employees_small.sql) and change values of `to_date` from '9999-01-01' to NULL
+
 # test_db
 A sample database with an integrated test suite, used to test your applications and database servers
 
@@ -42,6 +45,10 @@ user that has the following privileges:
 Then run
 
     mysql < employees.sql
+    
+or (for smaller version of the database)
+
+    mysql < employees_small.sql 
 
 
 If you want to install with two large partitioned tables, run
